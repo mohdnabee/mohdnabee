@@ -17,9 +17,7 @@ I’m a front-end Android developer specializing in Jetpack Compose, Kotlin, and
 
 <br/>  
 
-
-## Rapidfire  
-<table><tr><td valign="top" width="50%">
+<details><summary> Rapidfire </summary><table><tr><td valign="top" width="50%">
 
 - 🔭 I’m currently working on [Github Profilinator](https://github.com/rishavanand/github-profilinator)  
   
@@ -37,7 +35,7 @@ I’m a front-end Android developer specializing in Jetpack Compose, Kotlin, and
 
 
 
-</td></tr></table>  
+</td></tr></table></details>  
 
 <br/>  
 
