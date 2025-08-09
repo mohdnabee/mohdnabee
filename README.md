@@ -81,4 +81,3 @@ I’m a front-end Android developer specializing in Jetpack Compose, Kotlin, and
 <br />
 
 ----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
