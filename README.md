@@ -70,9 +70,7 @@ I’m a front-end Android developer specializing in Jetpack Compose, Kotlin, and
 
 <br/>  
 
-<div align="right">
-<img src="https://komarev.com/ghpvc/?username=mohdnabeel&&style=flat-square" align="right" />
-</div>  
+
   
 
 <br/>  
