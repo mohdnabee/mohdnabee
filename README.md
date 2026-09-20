@@ -13,7 +13,7 @@
 
 
 ## 🧠 My Focus Areas
-- Jetpack Compose Android dev
+- Jetpack Compose Android dev (Native)
 - Python
 - Data Analytics
 
