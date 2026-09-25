@@ -10,7 +10,7 @@ I'm currently learning **Android Development** and **Data Analytics** through co
 
 ### 📱 Android Development
 
-`Kotlin` `Java` `Jetpack Compose` `Android Studio` `Git` `GitHub`
+`Kotlin`  `Jetpack Compose` `Android Studio` `Git` `GitHub`
 
 ### 📊 Data Analytics
 
