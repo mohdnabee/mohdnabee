@@ -1,54 +1,32 @@
-# 👋 Hi, I'm Mohd Nabeel
+name: Generate Contribution Snake
 
-### 🚀 Beginner Android Developer | 📊 Data Analytics Learner
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
-I'm currently learning **Android Development** and **Data Analytics** through courses, practice, and personal projects.
+permissions:
+  contents: write
 
----
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: mohdnabee
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-## 🛠️ Skills & Tools
-
-### 📱 Android Development
-
-`Kotlin`  `Jetpack Compose` `Android Studio` `Git` `GitHub`
-
-### 📊 Data Analytics
-
-`Python` `SQL` `Excel` `Git` `GitHub`
-
----
-
-## 📚 Currently Learning
-
-* 📱 Android App Development
-* 🎨 Jetpack Compose
-* 🐍 Python
-* 🗄️ SQL
-* 📊 Excel & Data Analysis
-* 🔗 Git & GitHub
-
----
-
-## 📂 My Projects
-
-🔹 Android applications with **Kotlin & Jetpack Compose**
-🔹 SQL database projects
-🔹 Python practice & data analysis
-🔹 Excel data analysis projects
-
----
-
-## 🎯 My Goal
-
-> Learn consistently, build real projects, and improve my skills every day. 🚀
-
----
-
-## 📈 GitHub
-
-⭐ Learning
-🛠️ Building
-📚 Practicing
-🚀 Improving
-
-**Thanks for visiting my profile!**
+      - name: Publish animation
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
